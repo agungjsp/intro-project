@@ -31,7 +31,6 @@ export default {
   data() {
     return {
       loading: false,
-      userDetail: [],
       link: [
         {
           title: "Home",
@@ -45,6 +44,3 @@ export default {
   }
 };
 </script>
-
-<style scoped>
-</style>
