@@ -1,7 +1,7 @@
 <template>
   <div>
     <breadcrumb v-bind:navs="link"></breadcrumb>
-    <Tabs value="album">
+    <Tabs value="user">
       <TabPane name="user" label="Detail User" icon="md-person">
         <detail-user></detail-user>
       </TabPane>
