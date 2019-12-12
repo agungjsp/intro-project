@@ -1,9 +1,9 @@
 <template>
   <div>
     <Row :gutter="16">
-      <Col v-for="album in albums" v-bind:key="album.key" span="6">
+      <Col v-for="album in albums" v-bind:key="album.key" :md="6">
         <div class="cstm-text-center cstm-padding-medium">
-          <card>
+          <card :header="false">
             <div>
               <p class="cstm-padding-vert-small">
                 <b>{{ album.title }}</b>
@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import Card from "./../../../components/Card";
+import Card from "./../../../components/Card.vue";
 import UserService from "./../../../service/api";
 
 export default {
