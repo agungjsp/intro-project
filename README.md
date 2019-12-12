@@ -9,7 +9,14 @@ npm install
 
 ```
 
-Installing the package for application requirements
+Installing the package for application requirements.
+
+```
+
+cp config.js.dev config.js
+
+```
+Copy the BASE URL file into the project.
  
 ### Compiles and hot-reloads for development
 
