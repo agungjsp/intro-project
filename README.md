@@ -1,5 +1,5 @@
 
-# my-intro-project
+# My Intro Project
 
 ## Installation
 
