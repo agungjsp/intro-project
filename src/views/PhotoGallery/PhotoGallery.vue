@@ -9,7 +9,7 @@
     <Row :gutter="16">
       <Col v-for="photo in photos" v-bind:key="photo.key" :xs="24" :sm="12" :md="12" :lg="8">
         <div class="cstm-text-center cstm-padding-medium">
-          <card>
+          <card :header="false">
             <div>
               <img :src="photo.thumbnailUrl" />
               <p class="cstm-padding-vert-small">
