@@ -7,11 +7,11 @@
 </template>
 
 <script>
-import Layout from "./layout/MainLayout.vue";
+import BaseLayout from "./layout/MainLayout.vue";
 
 export default {
   components: {
-    "base-layout": Layout
+    BaseLayout
   }
 };
 </script>
